@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homework 2</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <table>
+    <caption>Контактна інформація</caption>
+    <tr>
+      <th>Ім'я</th>
+      <th>Прізвище</th>
+      <th>Телефон</th>
+      <th>E-mail</th>
+    </tr>
+    <tr>
+      <td>Валерія</td>
+      <td>Колосова</td>
+      <td>095 554 32 32</td>
+      <td>val94@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Віталій</td>
+      <td>Сестренський</td>
+      <td>096 543 22 58</td>
+      <td>toyou@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Світлана</td>
+      <td>Косовенко</td>
+      <td>096 366 15 11</td>
+      <td>whatthe@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Олександр</td>
+      <td>Піднебесний</td>
+      <td>097 654 65 43</td>
+      <td>helloworld@gmail.com</td>
+    </tr>
+  </table>
+  <form>
+    <div>
+      <label for="name" id="nm">Введіть Ваше ім'я:</label>
+      <input type="text" id="name" required placeholder="Ваше ім'я" />
+    </div>
+    <div>
+      <label for="surname" id="srname">Введіть Ваше прізвище:</label>
+      <input type="text" id="surname" required placeholder="Ваше прізвище" />
+    </div>
+    <div>
+      <label for="sex" id="yrsex">Ваша стать:</label>
+      <label for="female"><input type="radio" name="sex" id="female" value="Жіноча" checked />
+        Жіноча</label>
+      <label for="male"><input type="radio" name="sex" id="male" value="Чоловіча" />
+        Чоловіча</label>
+    </div>
+    <textarea name="question" rows="6" placeholder="Задайте Ваше питання"></textarea>
+
+    <select name="town">
+      <option value="choose" selected disabled>Оберіть Ваше місто</option>
+      <option value="kyiv">Київ</option>
+      <option value="harkiv">Харків</option>
+      <option value="odesa">Одеса</option>
+      <option value="lviv">Львів</option>
+    </select>
+    <p>Оберіть мову:</p>
+    <div>
+      <label for="uk">
+        <input type="checkbox" id="uk">
+        Українська
+      </label>
+      <label for="ru">
+        <input type="checkbox" id="ru">
+        Російська</label>
+      <label for="en">
+        <input type="checkbox" id="en">
+        Англійська</label>
+    </div>
+
+    <input type="submit" value="Submit" id="sbmit">
+
+  </form>
+</body>
+
+</html>

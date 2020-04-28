@@ -1,0 +1,74 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  background-color: lightgrey;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+caption {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+form {
+  margin: 10px 5px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  display: block;
+  height: 25px;
+}
+
+#name,
+#surname {
+  width: 200px;
+  height: 20px;
+}
+
+input {
+  margin: 5px 0;
+}
+
+#male,
+#female {
+  margin: 10px 0;
+}
+
+textarea {
+  width: 200px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+#uk,
+#ru,
+#en {
+  margin: 5px 0 5px 5px;
+}
+
+#nm,
+#srname,
+#yrsex {
+  font-weight: bolder;
+}
+
+#sbmit {
+  margin: 10px 0;
+}
