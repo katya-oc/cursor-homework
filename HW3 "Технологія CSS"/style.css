@@ -14,7 +14,8 @@ table {
 
 }
 
-td, th {
+td,
+th {
   border-bottom: 1px solid #4d4d4d;
   padding: 12px 13px;
 }
@@ -68,8 +69,9 @@ img {
   outline: none;
   color: #c8c8c8;
 }
+
 .searchf {
-  padding: 3px; 
+  padding: 3px;
 }
 
 span {
