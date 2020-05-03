@@ -1,0 +1,88 @@
+body {
+  background-color: #2c2c2c;
+  color: #c8c8c8;
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
+table {
+  width: 700px;
+  margin: 35px 40px 0 40px;
+  border: 1px solid #4d4d4d;
+  border-radius: 5px;
+  border-spacing: 0;
+
+}
+
+td, th {
+  border-bottom: 1px solid #4d4d4d;
+  padding: 12px 13px;
+}
+
+.table1 {
+  margin-top: 90px;
+}
+
+.last-table {
+  margin-bottom: 90px;
+}
+
+img {
+  width: 15px;
+  text-align: center;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.half-table {
+  width: 50%;
+  text-align: left;
+}
+
+.smallest_part {
+  width: 20%;
+  text-align: left;
+}
+
+.last-column {
+  text-align: right;
+  font-size: 15px;
+}
+
+.dis_color {
+  color: #6d6d6d;
+}
+
+.searchfield {
+  background: #444444;
+  border-spacing: 0;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px 10px 10px 30px;
+  background-image: url(./pics/search.png);
+  background-size: 15px;
+  background-position: 5% center;
+  background-repeat: no-repeat;
+  outline: none;
+  color: #c8c8c8;
+}
+.searchf {
+  padding: 3px; 
+}
+
+span {
+  border: 5px solid transparent;
+  border-top: 5px solid #c8c8c8;
+  margin: 5px 7px;
+  position: absolute;
+}
+
+.second_triangle {
+  margin-top: 7px;
+}
+
+[type="checkbox"] {
+  margin-right: 5px;
+}
