@@ -4,8 +4,6 @@ body {
   font-size: 14px;
   height: 100vh;
   color: black;
-
-
 }
 
 .add-download-section {
@@ -24,7 +22,6 @@ body {
   padding: 122px 0 111px 0;
   font-weight: normal;
   line-height: 140%;
-  margin-right: 81px;
 }
 
 .down-section-h {
@@ -35,7 +32,7 @@ body {
 .contact-form,
 .contact-txt,
 .slider {
-  width: 50%;
+  width: 40%;
 }
 
 h3 {
@@ -64,20 +61,21 @@ p {
   display: block;
   position: absolute;
   top: 116px;
+  right: 220px;
 }
 
 .background3 {
   display: block;
   position: absolute;
   top: 116px;
-  right: 15px;
+  right: 83px;
 }
 
 .background1 {
   display: block;
   position: absolute;
   top: 94px;
-  right: 44px;
+  right: 120px;
   z-index: 1;
 }
 
@@ -86,10 +84,6 @@ p {
   justify-content: space-around;
   height: 500px;
   padding-top: 117px;
-}
-
-.contact-txt {
-  margin-right: 114px;
 }
 
 .contact-h {
@@ -112,6 +106,12 @@ p {
   color: rgba(19, 39, 67, 0.5);
   outline: none;
   cursor: pointer;
+}
+
+.contact-form input:focus,
+.contact-form select:focus {
+  border: none;
+  outline: 1px solid #ED4C5C;
 }
 
 .names {
@@ -192,6 +192,8 @@ a:hover {
 li,
 span {
   margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .address {
@@ -202,12 +204,11 @@ span {
 .get-in-touch {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  align-items: flex-start;
 }
 
 .social-m {
   margin-top: 10px;
-  margin-left: -80px;
   cursor: pointer;
 }
 
