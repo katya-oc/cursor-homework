@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  align-content: space-around;
+  justify-content: space-around;
   height: 500px;
 }
 
@@ -62,7 +62,7 @@ p {
 
 .background2 {
   display: block;
-  position: relative;
+  position: absolute;
   top: 116px;
 }
 
@@ -83,7 +83,7 @@ p {
 
 .contact-us {
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
   height: 500px;
   padding-top: 117px;
 }
@@ -168,7 +168,7 @@ select {
 
 .all-info {
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 h5 {
@@ -197,15 +197,12 @@ span {
 .address {
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
 }
 
 .get-in-touch {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .social-m {
