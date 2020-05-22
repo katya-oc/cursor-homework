@@ -57,7 +57,7 @@ h1, h2, h3, li a, .logo {
 
 .aside-menu {
   max-width: 132px;
-  height: 107vh;
+  max-height: 853px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,11 +77,11 @@ h1, h2, h3, li a, .logo {
 }
 
 .menu li {
-  margin-bottom: 60px;
+  margin-bottom: 205%;
 }
 
 .menu li:last-child {
-  margin-bottom: 215px;
+  margin-bottom: 750%;
 }
 
 .aside-menu button {
