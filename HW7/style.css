@@ -31,7 +31,7 @@ h1, h2, h3, li a, .logo {
   height: 40px;
   min-width: 120px;
   background: #000000;
-  border: 1px solid #000000;
+  border: 1px solid transparent;
   border-radius: 8px;
   padding: 12.5px auto;
   text-align: center;
@@ -88,6 +88,7 @@ h1, h2, h3, li a, .logo {
   border: none;
   background: #000000;
   height: 30px;
+  cursor: pointer;
 }
 
 .main-info-section {
@@ -290,7 +291,31 @@ header {
 .search-profile>a {
   margin-left: 7.5%;
   cursor: pointer;
+  position: relative;
 }
+
+.notification {
+  position:absolute;
+  background: #F45B5B;;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  width: 16px;
+  height: 16px;
+  bottom: 21px;
+  left: 15px;
+}
+
+.notification:hover {
+  background: rgb(241, 122, 122);
+}
+
 
 .profile-icon {
   display: flex;
