@@ -27,7 +27,7 @@
 
 .btn {
   margin: 50px auto;
-
+  width: 45%;
 }
 
 button {
@@ -45,14 +45,34 @@ button {
   height: 92px;
   width: 501px;
   margin: 0 45px;
+  position: relative;
 }
 
-button::before, button::after {
+button:hover {
+  background-color: rgb(151, 214, 195);
+}
+
+button::before {
   content: " ";
   display: block;
   width: 200px;
   height: 8px;
   border-top: 2px solid #C4C4C4;
   border-bottom: 2px solid #C4C4C4;
+  position: absolute;
+  top: 40px;
+  right: 545px;
+}
+
+button::after {
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 8px;
+  border-top: 2px solid #C4C4C4;
+  border-bottom: 2px solid #C4C4C4;
+  position: absolute;
+  top: 40px;
+  left: 545px;
 }
 
