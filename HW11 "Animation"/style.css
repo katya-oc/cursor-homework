@@ -1,0 +1,313 @@
+.blackblock {
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.menu-block {
+  width: 140px;
+  height: 8px;
+  background-image: linear-gradient(to right, white 0 20%, rgb(17, 17, 17)20% 30%, white 30% 100%);
+  margin: 10px 0;
+}
+
+.menu-block2 {
+  background-image: linear-gradient(to left, white 0 20%, rgb(17, 17, 17)20% 30%, white 30% 100%);
+}
+
+.block1 {
+  transform: translateY(-35px);
+  opacity: 0;
+}
+
+.menu:hover .block1 {
+  animation-name: block1hover;
+  animation-duration: 2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes block1hover {
+  from {
+    transform: translateY(-35px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0);
+    opacity: 100%;
+  }
+}
+
+.block2 {
+  transform: rotate(45deg);
+}
+
+.menu:hover .block2 {
+  box-shadow: 0px 0px 10px 5px rgb(211, 63, 63);
+  animation-name: block2hover;
+  animation-duration: 2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes block2hover {
+  from {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(0);
+    box-shadow: none;
+  }
+}
+
+.block3 {
+  transform: rotate(-45deg) translate(15px, -24px);
+}
+
+.menu:hover .block3 {
+  box-shadow: 0px 0px 10px 5px rgb(68, 211, 63);
+  animation-name: block3hover;
+  animation-duration: 2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes block3hover {
+  from {
+    transform: rotate(-45deg) translate(15px, -24px);
+  }
+
+  to {
+    transform: rotate(0) translate(0px);
+    box-shadow: none;
+  }
+}
+
+
+
+.greyblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 239, 239);
+  height: 500px;
+}
+
+.circles {
+  display: flex;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.one {
+  background-image: linear-gradient(to right, rgb(14, 29, 70), rgb(22, 44, 104));
+}
+
+.two {
+  background-image: linear-gradient(to right, rgb(22, 44, 104), rgb(29, 56, 129));
+}
+
+.three {
+  background-image: linear-gradient(to right, rgb(29, 56, 129), rgb(36, 68, 155));
+}
+
+.four {
+  background-image: linear-gradient(to right, rgb(36, 68, 155), rgb(43, 81, 184));
+}
+
+.five {
+  background-image: linear-gradient(to right, rgb(43, 81, 184), rgb(48, 91, 207));
+}
+
+.six {
+  background-image: linear-gradient(to right, rgb(48, 91, 207), rgb(63, 110, 240));
+}
+
+.seven {
+  background-image: linear-gradient(to right, rgb(63, 110, 240), rgb(155, 179, 247));
+}
+
+.left-c {
+  position: relative;
+  animation-name: left-circle;
+  animation-duration: 1.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes left-circle {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(0, 0);
+  }
+
+  35% {
+    transform: translate(-45px, -40px);
+  }
+
+  50% {
+    transform: translate(-50px, -50px);
+  }
+
+  75% {
+    transform: translate(0, 0);
+  }
+
+  95% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.right-c {
+  position: relative;
+  animation-name: right-circle;
+  animation-duration: 1.4s;
+  animation-delay: 0.7s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes right-circle {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(0, 0);
+  }
+
+  35% {
+    transform: translate(45px, -40px);
+  }
+
+  50% {
+    transform: translate(50px, -50px);
+  }
+
+  75% {
+    transform: translate(0, 0);
+  }
+
+  95% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+.shadows {
+  display: flex;
+  margin-top: 20px;
+}
+
+.shadow {
+  width: 60px;
+  height: 2px;
+  background-color: gray;
+  filter: blur(3px);
+}
+
+.left-sh {
+  position: relative;
+  animation-name: left-shadow;
+  animation-duration: 1.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes left-shadow {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(0, 0);
+  }
+
+  35% {
+    transform: translateX(-45px);
+  }
+
+  50% {
+    transform: translateX(-50px);
+  }
+
+  75% {
+    transform: translate(0, 0);
+  }
+
+  95% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.right-sh {
+  position: relative;
+  animation-name: right-shadow;
+  animation-duration: 1.4s;
+  animation-delay: 0.7s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes right-shadow {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(0, 0);
+  }
+
+  35% {
+    transform: translateX(45px);
+  }
+
+  50% {
+    transform: translateX(50px);
+  }
+
+  75% {
+    transform: translate(0, 0);
+  }
+
+  95% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
