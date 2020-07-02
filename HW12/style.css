@@ -384,6 +384,10 @@ footer .bottomfooter .social-media a:hover {
     margin-bottom: 20px;
   }
 
+  .headertxt .headerbtns button {
+    font-size: 12px;
+  }
+
   .bigblock {
     flex-direction: column;
   }
@@ -460,13 +464,16 @@ footer .bottomfooter .social-media a:hover {
     margin-right: 5%;
   }
   footer .bottomfooter .footernav {
-    max-width: 200px;
+    max-width: 150px;
     margin: 0;
     padding-bottom: 15px;
     border-bottom: 1px solid #939EA4;
   }
+  footer .bottomfooter .footernav a {
+    font-size: 12px;
+  }
   footer .bottomfooter .social-media {
-    max-width: 200px;
+    max-width: 150px;
     margin: 15px 0;
   }
 }
