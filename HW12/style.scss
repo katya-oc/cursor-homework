@@ -1,0 +1,543 @@
+$logocol: #37447E;
+$titlecol: #091133;
+$parcol: #6F7CB2;
+$darkb: #111B47;
+
+body {
+  font-family: 'Roboto';
+}
+
+header {
+  width: 100%;
+  background-image: url(./images/header-pic.svg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: top right;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  color: $logocol;
+  font-weight: 900;
+  font-size: 26px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+h1,
+h3 {
+  color: $titlecol;
+}
+
+.wrapper {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.topheader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 4%;
+  margin-bottom: 20%;
+
+  .topnav {
+    width: 245px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-right: auto;
+
+    a {
+      text-decoration: none;
+      color: #505F98;
+      font-size: 14px;
+      padding: 0 5px;
+    }
+
+    a:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  button {
+    width: 160px;
+    height: 26px;
+    background-color: $darkb;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: auto;
+  }
+
+  button:hover {
+    background-color: rgb(148, 165, 233);
+  }
+}
+
+.headertxt {
+  max-width: 540px;
+  text-align: left;
+  padding-bottom: 40%;
+
+  h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25%;
+  }
+
+  .headerbtns {
+    display: flex;
+
+    button {
+      width: 190px;
+      height: 36px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+    }
+
+    button:hover {
+      background-color: rgb(148, 165, 233);
+    }
+
+    .dark {
+      background-color: $darkb;
+      color: #fff;
+      border: 2px solid transparent;
+      border-radius: 2px;
+      margin-right: 30px;
+    }
+
+    .light {
+      background-color: transparent;
+      border: 2px solid #091133;
+      border-radius: 2px;
+      color: $titlecol;
+    }
+  }
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+p {
+  color: $parcol;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.bigblock {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15%;
+
+  .txtblock {
+    width: 46%;
+    text-align: left;
+    margin-top: 5%;
+    margin-right: 20px;
+
+    .last {
+      margin-bottom: 15%;
+    }
+
+    .iconblock {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .iblock {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 139px;
+        margin-right: 5px;
+
+        h5 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: $titlecol;
+        }
+
+        p {
+          color: #5D6970;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+
+  .picblock {
+    width: 50%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.three-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 13%;
+
+  .picblockleft {
+    margin-right: 10%;
+    width: 50%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .txtblockright {
+    width: 40%;
+    text-align: left;
+    margin-top: 4%;
+
+    .txt-btn {
+      width: 150px;
+      height: 32px;
+      text-align: center;
+      border-radius: 2px;
+      border: 2px solid transparent;
+      background-color: $darkb;
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      margin-top: 40px;
+    }
+
+    .txt-btn:hover {
+      background-color: rgb(148, 165, 233);
+    }
+  }
+}
+
+.border-block {
+  background-color: #fff;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  height: 120px;
+  position: relative;
+  z-index: 2;
+}
+
+.price-block {
+  background-color: rgb(239, 242, 255);
+  padding-top: 15%;
+  margin-top: -100px;
+
+  .price-txt {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+
+    span {
+      display: block;
+    }
+
+    .price {
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 66px;
+      letter-spacing: 1px;
+      color: #222F65;
+      margin-top: 35px;
+    }
+
+    .underprice {
+      color: $logocol;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 26px;
+    }
+
+    .beforebtn {
+      margin-top: 8%;
+      margin-bottom: 10px;
+      color: #5D6970;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .price-btn {
+      width: 190px;
+      height: 32px;
+      background-color: $darkb;
+      border: 2px solid transparent;
+      border-radius: 2px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 25%;
+    }
+
+    .price-btn:hover {
+      background-color: rgb(148, 165, 233);
+    }
+  }
+}
+
+footer {
+  background-color: #E7ECFF;
+
+  .topfooter {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 0;
+    border-bottom: 1px solid #CDD1D4;
+
+    .copyright {
+      margin-right: auto;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      color: #939EA4;
+      padding: 0 10px;
+    }
+
+    button {
+      margin-left: auto;
+      width: 109px;
+      height: 26px;
+      background-color: $darkb;
+      color: #fff;
+      text-align: center;
+      border: 2px solid transparent;
+      border-radius: 2px;
+    }
+
+    button:hover {
+      background-color: rgb(148, 165, 233);
+    }
+  }
+
+  .bottomfooter {
+    padding: 3% 0 3.5% 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    .footernav {
+      width: 245px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      margin-right: auto;
+
+      a {
+        text-decoration: none;
+        color: #929ECC;
+        font-weight: 300;
+        font-size: 14px;
+        padding: 0 5px;
+      }
+
+      a:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    .social-media {
+      width: 245px;
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      padding: 0 15px;
+      margin-left: auto;
+
+      a:hover {
+        transform: scale(1.4);
+      }
+    }
+  }
+}
+
+
+@media (max-width: 760px) {
+  .topheader {
+    margin-bottom: 10%;
+  }
+
+  .headertxt {
+    padding-bottom: 20%;
+
+    h1 {
+      font-size: 30px;
+      line-height: 46px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 15%;
+    }
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .three-blocks {
+    margin-bottom: 8%;
+  }
+}
+
+@media (max-width: 705px) {
+  header {
+    background-image: none;
+    background-color: #E7ECFF;
+  }
+
+  .topheader {
+    flex-direction: column;
+    margin-bottom: 7%;
+    border-bottom: 1px solid $darkb;
+
+    .topnav {
+      order: 2;
+      margin: 15px 0;
+    }
+
+    button {
+      order: 3;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .bigblock {
+    flex-direction: column;
+
+    .txtblock {
+      width: 100%;
+      order: 2;
+      text-align: center;
+
+      .iconblock {
+        text-align: left;
+      }
+    }
+
+    .picblock {
+      width: 100%;
+      margin-top: 5%;
+    }
+  }
+
+  .three-blocks {
+    flex-direction: column;
+
+    .picblockleft {
+      width: 100%;
+    }
+
+    .txtblockright {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .border-block {
+    height: 30px;
+  }
+
+  .price-block {
+    margin-top: -30px;
+
+    .price-txt {
+      width: 80%;
+
+      .price {
+        font-size: 40px;
+      }
+
+      .underprice {
+        font-size: 14px;
+      }
+
+      .beforebtn {
+        font-size: 12px;
+      }
+
+      .price-btn {
+        margin-bottom: 15%;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+
+    .topfooter {
+      flex-direction: column;
+      border-bottom: none;
+
+      .copyright {
+        font-size: 12px;
+        order: 2;
+        margin: 15px 0;
+      }
+
+      .logo {
+        font-size: 22px;
+      }
+
+      button {
+        margin: 0;
+        order: 3;
+        align-self: center;
+      }
+    }
+
+    .bottomfooter {
+      flex-direction: column;
+      padding-top: 6%;
+      margin-right: 5%;
+
+      .footernav {
+        max-width: 200px;
+        margin: 0;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #939EA4;
+      }
+
+      .social-media {
+        max-width: 200px;
+        margin: 15px 0;
+      }
+    }
+  }
+}

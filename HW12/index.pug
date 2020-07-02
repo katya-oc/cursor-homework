@@ -1,0 +1,99 @@
+- var titles = "Light, Fast & Powerful";
+- var par1 = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus";
+- var par2 = "mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.";
+
+
+doctype html
+head
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible" content="ie=edge")
+  link(rel="stylesheet" href="../reset.css")
+  link(rel="stylesheet" href="./style.css")
+  link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet")
+  title Homework12
+body
+  header
+    .wrapper.topheader 
+      nav.topnav
+        a(href="#") Home 
+        a(href="#") About
+        a(href="#") Contact 
+      span.logo Landie
+      button Buy Now
+    .wrapper
+      .headertxt
+        h1 Introduce Your Product Quickly 	&amp; Effectively
+        p #{par1}
+        .headerbtns
+          button.dark Purchase UI Kit
+          button.light Learn more
+  main
+    .wrapper.bigblock
+      .txtblock
+        h3 #{titles}
+        p #{par1}
+        p.last #{par2}
+        .iconblock
+          .iblock
+            img(src="./images/icon.svg" alt="icon")
+            h5 Title Goes Here
+            p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+          .iblock
+            img(src="./images/icon.svg" alt="icon")
+            h5 Title Goes Here
+            p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+      .picblock
+        img(src="./images/girlandphone.svg")
+    .wrapper.three-blocks
+      .picblockleft
+        img(src="./images/mailgirl.svg")
+      .txtblockright
+        h3 #{titles}
+        p #{par1}
+        p #{par2}
+    .wrapper.three-blocks
+      .picblockleft
+        img(src="./images/pair.svg")
+      .txtblockright
+        h3 #{titles}
+        p #{par1}
+        p #{par2}
+    .wrapper.three-blocks
+      .picblockleft
+        img(src="./images/doggirl.svg")
+      .txtblockright
+        h3 #{titles}
+        p #{par1}
+        p #{par2}
+        button.txt-btn Purchase Now
+    .border-block
+    .price-block
+      .price-txt
+        h3 A Price To Suit Everyone
+        p #{par1}
+        span.price $40
+        span.underprice UI Design Kit
+        span.beforebtn See, One price. Simple.
+        button.price-btn Purchase Now
+  footer
+    .wrapper.topfooter
+      span.copyright ©2020 Yourcompany
+      span.logo Landie
+      button Purchase now
+    .wrapper.bottomfooter
+      .footernav
+        a(href="#") Home 
+        a(href="#") About
+        a(href="#") Contact 
+      .social-media
+        a(href="#")
+          img(src="./images/f.svg")
+        a(href="#")
+          img(src="./images/li.svg")
+        a(href="#")
+          img(src="./images/tw.svg")
+        a(href="#")
+          img(src="./images/youtube.svg")
+        a(href="#")
+          img(src="./images/inst.svg")
